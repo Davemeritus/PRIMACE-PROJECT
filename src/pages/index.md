@@ -8,7 +8,7 @@ mainpitch:
   title: Why Primace Agency
   description: >
     We inspire and develop creative innovations that drive positive change. We
-    build outstanding brands and proffer custom-long lasting solutions to
+    build outstanding brands and profer custom-long lasting solutions to
     brand-related problems
 description: Primace Agency supports your brand by developing an understanding
   of your business, clarifying your goals and objectives and communicating this
