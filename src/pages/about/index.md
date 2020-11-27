@@ -1,19 +1,46 @@
 ---
-templateKey: 'about-page'
+templateKey: about-page
 path: /about
-title: About our values
+title: What you should know about us
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+Primace Agency is a leading branding and marketing agency, leveraging on both traditional and digital channels to go far above our client's targets. 
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+Powered by a winning team of creatives, fueled by their ever-present hunger to not just give our clients a cutting edge in the market, but also make them 'The Pacemaker' even amidst fierce competition.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+We don't believe in a one size fits all.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+
+### Mission 
+
+To build outstanding branding and proffer solutions to all brand related problems while leading the way for a healthier society.
+
+### Vision
+
+To make Africa the centre of the world business activities by designing, developing and implementing digital marketing projects to help brands and businesses in Africa grow exponentially
+
+### Values
+
+1. Results-oriented: We provide solutions that give tangible results.
+
+2. Go-getting: We strive for excellence in everything we do and we are committed to always give back to our team and world around us
+
+3. Empathy: We find the most cost effective means to achieve your goals. Also we speak the truth always (even when it means less money in our pockets)
+
+4. Passionate Creativity: We are passionate about giving that best value to our clients and always improve ourselves to produce clever works.
+
+5. Loyalty: We value our relationship with the client. We follow-up on the growth of our client's brand and add additional support. We only win when our Clients win.
+
+6. Team work: We work together to give our clients the best and to help the company win.
+
+
+
+Working, using our passion, creativity and expanding pool of ideas, we develop custom-built techniques to provide unique long-lasting solutions for all problems our clients may run into while starting-up, and trying to reach a larger audience.
+
+In doing so we help build a strong online presence for our clients.
+
+We don't just help brands grow, we build them from the scratch 
+
+**You have an idea, we can make it a reality.**
+
+**Let's build yours!**
