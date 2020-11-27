@@ -2,7 +2,7 @@
 templateKey: index-page
 title: " Primace Agency"
 image: /img/home-jumbotron.jpg
-heading: Innovate for Positive Change
+heading: Your Support System
 subheading: Innovate for Positive Change
 mainpitch:
   title: Why Primace Agency
