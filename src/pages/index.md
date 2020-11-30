@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: " Primace Agency"
-image: /img/home-jumbotron.jpg
+image: /img/campaign-creators-gmsnxqiljp4-unsplash.jpg
 heading: Your Support System
 subheading: Innovate for Positive Change
 mainpitch:
@@ -15,7 +15,7 @@ description: Primace Agency supports your brand by developing an understanding
   in the right way to the right audience
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/coffee-gear.png
       text: We help you with your long-term and short-term plans for the development
         of a successful brand in order to achieve specific goals through our
         classic brand strategy services
