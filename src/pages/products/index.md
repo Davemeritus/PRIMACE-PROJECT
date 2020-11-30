@@ -9,43 +9,43 @@ description: We help businesses and organizations and increase sales through
 intro:
   blurbs:
     - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+      text: >-
+        
+        We help you with your long-term and short-term plans for the development of a successful brand in order to achieve specific goals.
+
+        We offer an excellent service in creating brand development strategies to maintain competitiveness, be it Product line extension, brand extension or creating a new brand
     - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+      text: Harness the power of the written word to beef up your business with higher
+        conversions through our top-notch copywriting services. We are versed in
+        the art and science of copy writing that sells your product or service
+        and convince your prospective clients to take actions
     - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+      text: Your website is often the first point of contact potential customers have
+        of your company and brand. It only makes sense that you contact us to
+        put your best foot forward and effectively communicate what you're all
+        about through professional and user-friendly web design
     - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+      text: Helping you with your overall game plan for reaching prospective consumers
+        and turning them into customers of the products or services your
+        business provides is what we are here for. We create a holistic
+        marketing strategy that satisfy your clients' needs, increase sales,
+        maximize profit and beat your competitors
+    - text: Consistent, high quality and engaging contents impact the audience
+        decision-making more than any other technique. We help you generate
+        ideas that appeal to your buyer persona, creating contents around those
+        ideas through our excellent content creation services.
+      image: /img/coffee.png
   heading: What we offer
   description: >-
     
     We help businesses and organizations and increase sales through strategy-led branding, design and marketing
 main:
-  heading: Great coffee with no compromises
+  heading: Delivering solutions with Integrity
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    Delivering solutions with integrity means that we do what we were going to
+    do and that we serve as partners. This means that we deliver our service,
+    provide our knowledge and expertise, and build a relationship while
+    collaborating.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
@@ -55,39 +55,14 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
-testimonials:
-  - author: Elisabeth Kaurismäki
-    quote: The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
-    quote: Kaldi is the place to go if you want the best quality coffee. I love
-      their stance on empowering farmers and transparency.
+testimonials: []
 full_image: /img/products-full-width.jpg
 pricing:
-  heading: Monthly subscriptions
-  description: We make it easy to make great coffee a part of your life. Choose
-    one of our monthly subscription plans to receive great coffee at your
-    doorstep each month. Contact us about more details and payment info.
-  plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
-      items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: "50"
-    - description: Great for avid drinkers, java-loving couples and bigger crowds
-      items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: "80"
-    - description: Want a few tiny batches from different varieties? Try our custom plan
-      items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: ??
+  heading: Anticipate the future
+  description: "A great habit of highly successful brands is their ability to
+    anticipate to anticipate and plan for the future. Even the most highly
+    successful brands still have room for improvement. However, part of their
+    success is their ability to adapt, step out of their comfort zone and
+    forecast the future. WE HELP YOU ANTICIPATE THE FUTURE! "
+  plans: []
 ---
