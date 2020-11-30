@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
-import Testimonials from '../components/Testimonials'
-import Pricing from '../components/Pricing'
+//import Testimonials from '../components/Testimonials'
+//import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const ProductPageTemplate = ({
@@ -14,9 +14,9 @@ export const ProductPageTemplate = ({
   description,
   intro,
   main,
-  testimonials,
-  fullImage,
-  pricing,
+//  testimonials,
+  //fullImage,
+ // pricing,
 }) => (
   <div className="content">
     <div
@@ -80,22 +80,10 @@ export const ProductPageTemplate = ({
                   </div>
                 </div>
               </div>
-              <Testimonials testimonials={testimonials} />
-              <div
-                className="full-width-image-container"
-                style={{
-                  backgroundImage: `url(${
-                    fullImage.childImageSharp
-                      ? fullImage.childImageSharp.fluid.src
-                      : fullImage
-                  })`,
-                }}
-              />
-              <h2 className="has-text-weight-semibold is-size-2">
-                {pricing.heading}
-              </h2>
-              <p className="is-size-5">{pricing.description}</p>
-              <Pricing data={pricing.plans} />
+             
+           
+       
+           
             </div>
           </div>
         </div>
@@ -140,9 +128,9 @@ const ProductPage = ({ data }) => {
         description={frontmatter.description}
         intro={frontmatter.intro}
         main={frontmatter.main}
-        testimonials={frontmatter.testimonials}
+        //testimonials={frontmatter.testimonials}
         fullImage={frontmatter.full_image}
-        pricing={frontmatter.pricing}
+     //   pricing={frontmatter.pricing}
       />
     </Layout>
   )
@@ -220,10 +208,7 @@ export const productPageQuery = graphql`
             }
           }
         }
-        testimonials {
-          author
-          quote
-        }
+      
         full_image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
@@ -231,16 +216,7 @@ export const productPageQuery = graphql`
             }
           }
         }
-        pricing {
-          heading
-          description
-          plans {
-            description
-            items
-            plan
-            price
-          }
-        }
+       
       }
     }
   }
