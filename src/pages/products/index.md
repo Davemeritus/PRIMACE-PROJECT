@@ -35,6 +35,14 @@ intro:
         ideas that appeal to your buyer persona, creating contents around those
         ideas through our excellent content creation services.
       image: /img/coffee.png
+    - text: >-2
+         
+
+        Many entrepreneurs think carrying out an advertising campaign means simply creating an ad; however, they are mistaken. For advertising to yield the best results, it’s crucial to be well organized right from the start.
+
+         
+         An online advertising agency specifically geared towards digital marketing, is your best bet; Primace is your surest bet; this is the best way to achieve your desired results. 
+      image: /img/coffee.png
   heading: What we offer
   description: >-
     
