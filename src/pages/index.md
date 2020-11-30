@@ -15,7 +15,7 @@ description: Primace Agency supports your brand by developing an understanding
   in the right way to the right audience
 intro:
   blurbs:
-    - image: /img/coffee-gear.png
+    - image: /img/flow-chart-presentation.jpg
       text: We help you with your long-term and short-term plans for the development
         of a successful brand in order to achieve specific goals through our
         classic brand strategy services
