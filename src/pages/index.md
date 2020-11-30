@@ -37,7 +37,7 @@ intro:
     - text: We help you generate ideas that appeal to your buyer persona, creating
         contents around those ideas through our excellent content creation
         services
-      image: /img/apple-touch-icon.png
+      image: /img/carp_by_kotikomori_ddyqa9q-fullview.jpg
   heading: What we do
   description: Primace Agency supports your brand by developing an understanding
     of your business, clarifying your goals and objectives and communicating
