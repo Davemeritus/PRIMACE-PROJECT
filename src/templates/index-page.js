@@ -1,13 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-
 import Layout from '../components/Layout'
-import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import Section1 from '../img/Section1.png'
 import Section2 from '../img/Section2.png'
 import Section from '../img/image1.png'
+import Picture from '../img/Picture.png'
 
 export const IndexPageTemplate = ({
   image,
@@ -124,34 +123,41 @@ export const IndexPageTemplate = ({
               <h3 className="subtitle">{mainpitch.description}</h3>
             </div>
           </div>
-          <div className="columns">
+          <div className="section">
+            <div className="columns">
+              <div className="column is-12">
+                <h3 className="has-text-weight-semibold is-size-2">
+                  {heading}
+                </h3>
+                <p>{description}</p>
+              </div>
+            </div>
+
+            <div className="columns">
+              <div className="column is-12 has-text-centered">
+                <Link className="btn" to="/products">
+                  What we do
+              </Link>
+              </div>
+            </div>
+            <div className="ColumnWords" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+              <img src={Picture} alt="" style={{ width: '150px', marginBottom: '30px' }} />
+              <p style={{ padding: '0 2rem', fontSize: '1.5rem' }}><span style={{ width: '42px' }}>"</span>The idea is to create an identity that narrows down to four main attributes which are growth,
+                positivity, transformation and innovation" <br /><br /> <span style={{ marginTop: '10px', fontWeight: 'bolder' }}>- Caleb Oluwole</span> </p>
+
+            </div>
             <div className="column is-12">
               <h3 className="has-text-weight-semibold is-size-2">
-                {heading}
-              </h3>
-              <p>{description}</p>
-            </div>
-          </div>
-          <Features gridItems={intro.blurbs} />
-          <div className="columns">
-            <div className="column is-12 has-text-centered">
-              <Link className="btn" to="/products">
-                What we do
-                  </Link>
-            </div>
-          </div>
-          <div className="column is-12">
-            <h3 className="has-text-weight-semibold is-size-2">
-              Latest stories
+                Latest stories
                 </h3>
-            <BlogRoll />
-            <div className="column is-12 has-text-centered">
-              <Link className="btn" to="/blog">
-                Read more
+              <BlogRoll />
+              <div className="column is-12 has-text-centered">
+                <Link className="btn" to="/blog">
+                  Read more
                   </Link>
+              </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>

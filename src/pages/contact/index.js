@@ -36,20 +36,21 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
+        <h1 className="contact">Contact Us</h1>
         <section className='section'>
           <div className='container'>
             <div className='content'>
-              <h1>Contact</h1>
+
               <form
                 action='mailto:david@yahoo.com'
                 method='get'
                 encType='text/plain'
-                // name="contact"
-                // method="post"
-                // action="/contact/thanks/"
-                // data-netlify="true"
-                // data-netlify-honeypot="bot-field"
-                // onSubmit={this.handleSubmit}
+              // name="contact"
+              // method="post"
+              // action="/contact/thanks/"
+              // data-netlify="true"
+              // data-netlify-honeypot="bot-field"
+              // onSubmit={this.handleSubmit}
               >
                 {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
                 <input type='hidden' name='form-name' value='contact' />

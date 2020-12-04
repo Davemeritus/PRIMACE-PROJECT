@@ -8,23 +8,23 @@ description: We help businesses and organizations and increase sales through
   strategy-led branding, design and marketing
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/brandidentity.png
       text: >-
         
         We help you with your long-term and short-term plans for the development of a successful brand in order to achieve specific goals.
 
         We offer an excellent service in creating brand development strategies to maintain competitiveness, be it Product line extension, brand extension or creating a new brand
-    - image: /img/coffee-gear.png
+    - image: /img/copywriting.png
       text: Harness the power of the written word to beef up your business with higher
         conversions through our top-notch copywriting services. We are versed in
         the art and science of copy writing that sells your product or service
         and convince your prospective clients to take actions
-    - image: /img/tutorials.png
+    - image: /img/webdevelopment.png
       text: Your website is often the first point of contact potential customers have
         of your company and brand. It only makes sense that you contact us to
         put your best foot forward and effectively communicate what you're all
         about through professional and user-friendly web design
-    - image: /img/meeting-space.png
+    - image: /img/marketing.png
       text: Helping you with your overall game plan for reaching prospective consumers
         and turning them into customers of the products or services your
         business provides is what we are here for. We create a holistic
@@ -34,7 +34,7 @@ intro:
         decision-making more than any other technique. We help you generate
         ideas that appeal to your buyer persona, creating contents around those
         ideas through our excellent content creation services.
-      image: /img/coffee.png
+      image: /img/contentcreator.png
     - text: >-2
          
 
@@ -42,7 +42,7 @@ intro:
 
          
          An online advertising agency specifically geared towards digital marketing, is your best bet; Primace is your surest bet; this is the best way to achieve your desired results. 
-      image: /img/coffee.png
+      image: /img/campaign.png
   heading: What we offer
   description: >-
     
