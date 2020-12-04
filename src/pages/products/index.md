@@ -2,8 +2,8 @@
 heading: What we offer
 path: /products
 templateKey: product-page
-title: Our Services
-image: /img/jumbotron.jpg
+title: Our Works
+image: /img/campaign-creators-gmsnxqiljp4-unsplash.jpg
 description: We help businesses and organizations and increase sales through
   strategy-led branding, design and marketing
 intro:
@@ -24,7 +24,7 @@ intro:
         of your company and brand. It only makes sense that you contact us to
         put your best foot forward and effectively communicate what you're all
         about through professional and user-friendly web design
-    - image: /img/marketing.png
+    - image: /img/meeting-space.png
       text: Helping you with your overall game plan for reaching prospective consumers
         and turning them into customers of the products or services your
         business provides is what we are here for. We create a holistic
@@ -34,7 +34,7 @@ intro:
         decision-making more than any other technique. We help you generate
         ideas that appeal to your buyer persona, creating contents around those
         ideas through our excellent content creation services.
-      image: /img/contentcreator.png
+      image: /img/coffee.png
     - text: >-2
          
 
@@ -42,7 +42,7 @@ intro:
 
          
          An online advertising agency specifically geared towards digital marketing, is your best bet; Primace is your surest bet; this is the best way to achieve your desired results. 
-      image: /img/campaign.png
+      image: /img/coffee.png
   heading: What we offer
   description: >-
     
