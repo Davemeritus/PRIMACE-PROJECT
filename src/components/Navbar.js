@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
+
 import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
@@ -23,11 +23,11 @@ const Navbar = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: 'is-active',
-            })
+            navBarActiveClass: 'is-active',
+          })
           : this.setState({
-              navBarActiveClass: '',
-            })
+            navBarActiveClass: '',
+          })
       }
     )
   }
@@ -46,9 +46,12 @@ const Navbar = class extends React.Component {
             </Link>
             {/* Hamburger menu */}
             <div
+              role="button"
+              tabIndex="0"
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"
               onClick={() => this.toggleHamburger()}
+              onKeyDown={() => this.toggleHamburger()}
             >
               <span />
               <span />
@@ -72,9 +75,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact">
                 Contact
               </Link>
-              
+
             </div>
-          
+
           </div>
         </div>
       </nav>

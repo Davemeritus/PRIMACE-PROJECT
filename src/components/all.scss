@@ -4,6 +4,7 @@
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #D64000;
 $kaldi-red-invert: #fff;
+$primaryColor: #2A05B6;
 
 $primary: $kaldi-red;
 $primary-invert: $kaldi-red-invert;
@@ -40,8 +41,6 @@ $black: #2b2523;
   left: 50%;
   right: 50%;
   margin: 2em -50vw;
-  background-size: cover;
-  background-position: bottom;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,12 +48,31 @@ $black: #2b2523;
 
 .full-width-image {
     width: 100vw;
-    height: 400px;
-    background-size: cover;
-    background-position: bottom;
+    min-height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    padding: 0  50px;
+    @media screen and (max-width: 767px) {
+     flex-direction: column;
+     padding: 10% 10%;
+    }
+}
+.full-width-image > div{
+  width: 100%;
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+}
+
+
+
+.content > div{
+  @media screen and (max-width: 767px) {
+    width: 100%;
+    flex-direction: column;
+  }
 }
 
 .btn {
@@ -160,5 +178,10 @@ $menu-label-color: $white-ter;
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+  }
+}
+footer{
+  a{
+    color: #fff;
   }
 }

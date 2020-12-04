@@ -5,6 +5,9 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import Section1 from '../img/Section1.png'
+import Section2 from '../img/Section2.png'
+import Section from '../img/image1.png'
 
 export const IndexPageTemplate = ({
   image,
@@ -15,104 +18,144 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <div>
-    <div
-      className="full-width-image margin-top-0"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
-      }}
-    >
+    <div style={{
+      backgroundColor: ' #FFFCFC'
+    }}>
       <div
+        className="full-width-image margin-top-0"
         style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
+          backgroundColor: `#2A05B6`,
+
         }}
       >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+        <div
           style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
+            lineHeight: '2',
+            marginBottom: '30px'
           }}
         >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
+          <h1
+            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+            style={{
+              color: 'white',
+              lineHeight: '1',
+              marginBottom: '30px',
+              paddingRight: '7px'
+            }}
+          >
+            {title}
+          </h1>
+          <button
+            style={{
+              backgroundColor: `#2A05B6`,
+              border: "2px solid white",
+              color: 'white',
+              padding: '1rem',
+              fontWeight: `bold`,
+              fontSize: `24px`,
+              lineHeight: `28px`,
+
+            }}
+          >HIRE US NOW</button>
+        </div>
+        <div
+
         >
-          {subheading}
-        </h3>
-      </div>
-    </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                    What we do
-                    </Link>
-                  </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <img src={Section} alt="" />
+
         </div>
       </div>
-    </section>
-  </div>
-)
+
+      <div className="section1">
+        <div style={{ marginTop: '70px' }} className="content">
+          <h1 style={{ textAlign: 'center', marginBottom: '50px' }} className="title">{mainpitch.title}</h1>
+          <div
+            className="content"
+            style={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              backgroundColor: '#fff'
+            }}
+          >
+
+            <div style={{
+              padding: "0 2rem",
+
+            }}
+              className="tile">
+              <h3 className="subtitle">{mainpitch.description}</h3>
+            </div>
+            <div
+              style={{
+                backgroundColor: `#FAFAFB`,
+                padding: '0 5%'
+              }}
+              className="tile"
+            >
+              <img src={Section1} alt="" />
+            </div>
+          </div>
+          <div
+            className="content"
+            style={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              backgroundColor: '#fff'
+            }}
+          >
+            <div
+              style={{
+                backgroundColor: `#FAFAFB`,
+                padding: '0 5%'
+              }}
+              className="tile"
+
+            >
+              <img src={Section2} alt="" />
+            </div>
+            <div
+              style={{
+                padding: "0 2rem",
+
+              }}
+              className="tile">
+              <h3 className="subtitle">{mainpitch.description}</h3>
+            </div>
+          </div>
+          <div className="columns">
+            <div className="column is-12">
+              <h3 className="has-text-weight-semibold is-size-2">
+                {heading}
+              </h3>
+              <p>{description}</p>
+            </div>
+          </div>
+          <Features gridItems={intro.blurbs} />
+          <div className="columns">
+            <div className="column is-12 has-text-centered">
+              <Link className="btn" to="/products">
+                What we do
+                  </Link>
+            </div>
+          </div>
+          <div className="column is-12">
+            <h3 className="has-text-weight-semibold is-size-2">
+              Latest stories
+                </h3>
+            <BlogRoll />
+            <div className="column is-12 has-text-centered">
+              <Link className="btn" to="/blog">
+                Read more
+                  </Link>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  )
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
