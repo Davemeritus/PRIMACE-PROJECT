@@ -7,6 +7,7 @@ import Section1 from '../img/Section1.png'
 import Section2 from '../img/Section2.png'
 import Section from '../img/image1.png'
 import Picture from '../img/Picture.png'
+import Support from '../img/support.png'
 
 export const IndexPageTemplate = ({
   image,
@@ -21,7 +22,7 @@ export const IndexPageTemplate = ({
       backgroundColor: ' #FFFCFC'
     }}>
       <div
-        className="full-width-image margin-top-0"
+        className="full-width-image wrap margin-top-0"
         style={{
           backgroundColor: `#2A05B6`,
 
@@ -55,7 +56,7 @@ export const IndexPageTemplate = ({
               lineHeight: `28px`,
 
             }}
-          >HIRE US NOW</button>
+          ><Link to="/contact" style={{ outline: '0', color: 'white' }}>HIRE US NOW</Link></button>
         </div>
         <div
 
@@ -66,29 +67,32 @@ export const IndexPageTemplate = ({
       </div>
 
       <div className="section1">
-        <div style={{ marginTop: '70px' }} className="content">
+        <div style={{ marginTop: '70px' }} >
           <h1 style={{ textAlign: 'center', marginBottom: '50px' }} className="title">{mainpitch.title}</h1>
           <div
-            className="content"
+            className="flexswap1 content"
             style={{
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              backgroundColor: '#fff'
+              background: '#fafafb',
+              marginBottom: '50px',
+              boxShadow: '3px 3px 48px 4px #C9C9C9'
             }}
           >
 
             <div style={{
-              padding: "0 2rem",
+              padding: "4rem 2rem",
+
 
             }}
-              className="tile">
-              <h3 className="subtitle">{mainpitch.description}</h3>
+              className="tile ">
+              <h3 style={{ fontWeight: 'normal' }} className="subtitle">{mainpitch.description}</h3>
             </div>
             <div
               style={{
-                backgroundColor: `#FAFAFB`,
-                padding: '0 5%'
+
+                padding: '2%'
               }}
               className="tile"
             >
@@ -96,40 +100,51 @@ export const IndexPageTemplate = ({
             </div>
           </div>
           <div
-            className="content"
+            className="flexswap content"
             style={{
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              backgroundColor: '#fff'
+              background: '#fafafb',
+              boxShadow: '3px 3px 48px 4px #C9C9C9'
             }}
           >
             <div
               style={{
-                backgroundColor: `#FAFAFB`,
-                padding: '0 5%'
+
+                padding: '2%'
               }}
-              className="tile"
+              className="tile "
 
             >
               <img src={Section2} alt="" />
             </div>
             <div
               style={{
-                padding: "0 2rem",
+                padding: "4rem 2rem",
 
               }}
-              className="tile">
-              <h3 className="subtitle">{mainpitch.description}</h3>
+              className="tile ">
+              <h3 style={{ fontWeight: 'normal' }} className="subtitle">We
+              build outstanding brands and profer custom-long lasting solutions to
+              brand-related problems</h3>
             </div>
           </div>
           <div className="section">
             <div className="columns">
               <div className="column is-12">
-                <h3 className="has-text-weight-semibold is-size-2">
+                <h3 className="has-text-weight-semibold is-size-2"
+                  style={{ textAlign: 'center' }}>
                   {heading}
                 </h3>
-                <p>{description}</p>
+                <p className="supportp" style={{ padding: '0 7%', textAlign: 'center', fontSize: '18px' }}>{description}</p>
+                <div
+                  style={{
+                    textAlign: 'center'
+                  }}>
+                  <img src={Support} alt="" />
+                </div>
+
               </div>
             </div>
 
