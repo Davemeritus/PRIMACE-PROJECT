@@ -6,7 +6,7 @@ import BlogRoll from '../components/BlogRoll'
 import Section1 from '../img/Section1.png'
 import Section2 from '../img/Section2.png'
 import Section from '../img/image1.png'
-import Picture from '../img/Picture.png'
+import Picture from '../img/caleb.jpg'
 import Support from '../img/support.png'
 
 export const IndexPageTemplate = ({
@@ -18,15 +18,10 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-    <div style={{
-      backgroundColor: ' #FFFCFC'
-    }}>
+    <div >
       <div
         className="full-width-image wrap margin-top-0"
-        style={{
-          backgroundColor: `#2A05B6`,
 
-        }}
       >
         <div
           style={{
@@ -37,8 +32,8 @@ export const IndexPageTemplate = ({
           <h1
             className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
             style={{
-              color: 'white',
-              lineHeight: '1',
+              color: 'black',
+              lineHeight: '1.3',
               marginBottom: '30px',
               paddingRight: '7px'
             }}
@@ -156,7 +151,7 @@ export const IndexPageTemplate = ({
               </div>
             </div>
             <div className="ColumnWords" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <img src={Picture} alt="" style={{ width: '150px', marginBottom: '30px' }} />
+              <img src={Picture} alt="" style={{ width: '150px', marginBottom: '30px', borderRadius: '50%' }} />
               <p style={{ padding: '0 2rem', fontSize: '1.5rem' }}><span style={{ width: '42px' }}>"</span>The idea is to create an identity that narrows down to four main attributes which are growth,
                 positivity, transformation and innovation" <br /><br /> <span style={{ marginTop: '10px', fontWeight: 'bolder' }}>- Caleb Oluwole</span> </p>
 

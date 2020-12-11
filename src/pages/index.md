@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: " DO YOU HAVE AN IDEA? WE CAN MAKE IT A REALITY"
+title: " DO YOU HAVE AN IDEA? LET'S MAKE IT A REALITY!..."
 image: /img/campaign-creators-gmsnxqiljp4-unsplash.jpg
 heading: Your Support System
 subheading: Innovate for Positive Change

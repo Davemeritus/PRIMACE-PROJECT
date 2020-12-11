@@ -2,23 +2,96 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+// import Content, { HTMLContent } from '../components/Content'
+import Vision from "../img/vision.png"
+import Mission from "../img/mission.png"
+import Results from "../img/exam.png"
+import Creativty from "../img/creative.png"
+import Goal from "../img/goal.png"
+import Empathy from "../img/empathy.png"
+import Radar from "../img/radar.png"
+import United from "../img/united.png"
 
-
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
+export const AboutPageTemplate = () => {
 
   return (
     <section className="section--gradient">
       <h1 className="contact">About Us</h1>
+      <div className="container ">
+        <p style={{ fontSize: '1.8em', padding: '0 5%', marginTop: '40px' }}>Primace Agency, a leading branding and marketing agency, leveraging on both traditional and digital channels to go far above our client's targets. </p>
+        <div className="aboutus">
+          <div>
+            <img src={Vision} style={{ width: '150px' }} alt="" />
+            <h1 style={{ fontSize: '32px', fontWeight: '600' }}>Our Vision</h1><hr />
+            <p>Our vision is to make Africa the centre of the world business activities by designing, developing and implementing digital marketing projects to help brands and businesses in Africa grow exponentially</p>
+          </div>
+          <div>
+            <img src={Mission} style={{ width: '150px' }} alt="" />
+            <h1 style={{ fontSize: '32px', fontWeight: '600' }}>Our Mission</h1><hr />
+            <p>Our mission is to build outstanding branding and proffer solutions to all brand related problems while leading the way for a healthier society.</p>
+          </div>
+        </div>
+        <div className="value" style={{ padding: '0 5%' }}>
+          <h1>Our Core Values</h1>
+          <hr />
+          <div className="values">
+
+            <div>
+              <img src={Results} style={{ width: '150px' }} alt="" />
+              <p className="values__header">RESULT ORIENTED</p>
+              <p>We provide solutions that give tangible results
+</p>
+            </div>
+            <div>
+              <img src={Goal} style={{ width: '150px' }} alt="" />
+              <p className="values__header">GO-GETTING</p>
+              <p>We strive for excellence in everything we do and we We provide solutions that give tangible resultsare committed to always give back to our team and world around us</p>
+            </div>
+            <div>
+              <img src={Empathy} style={{ width: '150px' }} alt="" />
+              <p className="values__header">EMPATHY</p>
+              <p>We find the most cost effective means to achieve your goals. Also we speak the truth always (even when it means less money in our pockets</p>
+            </div>
+          </div>
+          <div className="values">
+
+            <div>
+              <img src={Creativty} style={{ width: '150px' }} alt="" />
+              <p className="values__header">PASSIONATE CREATIVITY</p>
+              <p>We are passionate about giving that best value to our clients and always improve ourselves to produce clever works</p>
+            </div>
+            <div>
+              <img src={Radar} style={{ width: '150px' }} alt="" />
+              <p className="values__header">LOYALTY</p>
+              <p>We value our relationship with the client. We follow-up on the growth of our client's brand and add additional support. We only win when our Clients win</p>
+            </div>
+            <div>
+              <img src={United} style={{ width: '150px' }} alt="" />
+              <p className="values__header">TEAM WORK</p>
+              <p>We work together to give our clients the best and to help the company win</p>
+            </div>
+          </div>
+        </div>
+        <div className="aboutTeam" style={{ padding: '0 5%' }}>
+          <h1>The Team</h1>
+          <hr />
+          <p >Powered by a winning team of creatives, fueled by their ever-present hunger to not just give our clients a cutting edge in the market, but also make them 'The Pacemaker' even amidst fierce competition.</p>
+          <br />
+          <p>Working, using our passion, creativity and expanding pool of ideas, we develop custom-built techniques to provide unique long-lasting solutions for all problems our clients may run into while starting-up, and trying to reach a larger audience.
+
+          In doing so we help build a strong online presence for our clients.
+
+We don't just help brands grow, we build them from the scratch </p>
+        </div>
+
+      </div>
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
+
               </h2>
-              <PageContent className="content" content={content} />
             </div>
           </div>
         </div>
@@ -33,15 +106,13 @@ AboutPageTemplate.propTypes = {
   contentComponent: PropTypes.func,
 }
 
-const AboutPage = ({ data }) => {
-  const { markdownRemark: post } = data
+const AboutPage = () => {
+
 
   return (
     <Layout>
       <AboutPageTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
+
       />
     </Layout>
   )

@@ -2,7 +2,7 @@
 heading: What we offer
 path: /products
 templateKey: product-page
-title: Our Works
+title: Our Services
 image: /img/jumbotron.jpg
 description: We help businesses and organizations and increase sales through
   strategy-led branding, design and marketing
