@@ -55,14 +55,14 @@ main:
     provide our knowledge and expertise, and build a relationship while
     collaborating.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    alt: A board meeting
+    image: /img/pexels-christina-morillo-1181396.jpg
   image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    alt: Financial Analytics
+    image: /img/pexels-lukas-669610.jpg
   image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    alt: Financial pie-chart
+    image: /img/pexels-kaboompics-com-6231.jpg
 testimonials: []
 full_image: /img/products-full-width.jpg
 pricing:
