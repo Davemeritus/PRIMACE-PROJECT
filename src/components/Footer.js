@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-// import logo from '../img/logoo.png'
+
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
 //import vimeo from '../img/social/vimeo.svg'
@@ -11,16 +11,16 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer "
         style={{
-          background: `#2A05B6`
+          background: `#2a05b6`
         }}
       >
-        {/* <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Kaldi"
-            style={{ width: '150px', height: '10em' }}
-          />
-        </div> */}
+        <div className="content footer-contact has-text-centered">
+          <p style={{ fontSize: '32px', marginBottom: '0rem', fontWeight: '600' }} >
+            Get In Touch With Us
+          </p>
+          <p style={{ marginBottom: '0rem' }}>Phone: +(234)7018981731</p>
+          <p>Email:primaceagency@gmail.com</p>
+        </div>
         <div className="content ">
           <div className="container ">
             <div style={{ maxWidth: '100vw' }} className="columns">
@@ -78,10 +78,15 @@ const Footer = class extends React.Component {
                     alt="Instagram"
                     style={{ width: '1em', height: '1em' }}
                   />
-                </a>
+                </a><br />
 
               </div>
+
             </div>
+            <p style={{ padding: '1em 2em', borderTop: '1px solid white', color: 'white' }}>
+              @2020 Primace Agency
+           </p>
+
           </div>
         </div>
       </footer>

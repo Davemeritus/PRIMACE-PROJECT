@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 import BlogRoll from '../components/BlogRoll'
 import Section1 from '../img/Section1.png'
 import Section2 from '../img/Section2.png'
-import Section from '../img/image1.png'
+import Section from '../img/launch.svg'
 import Picture from '../img/caleb.jpg'
 import Support from '../img/support.png'
 
@@ -43,12 +43,13 @@ export const IndexPageTemplate = ({
           <button
             style={{
               backgroundColor: `#2A05B6`,
-              border: "2px solid white",
+              border: "0 solid white",
               color: 'white',
               padding: '1rem',
               fontWeight: `bold`,
               fontSize: `24px`,
               lineHeight: `28px`,
+
 
             }}
           ><Link to="/contact" style={{ outline: '0', color: 'white' }}>HIRE US NOW</Link></button>
@@ -56,80 +57,34 @@ export const IndexPageTemplate = ({
         <div
 
         >
-          <img src={Section} alt="" />
+          <img style={{ margin: '30px 0' }} src={Section} alt="" />
 
         </div>
       </div>
 
       <div className="section1">
-        <div style={{ marginTop: '70px' }} >
-          <h1 style={{ textAlign: 'center', marginBottom: '50px' }} className="title">{mainpitch.title}</h1>
-          <div
-            className="flexswap1 content"
-            style={{
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              background: '#fafafb',
-              marginBottom: '50px',
-              boxShadow: '3px 3px 48px 4px #C9C9C9'
-            }}
-          >
-
-            <div style={{
-              padding: "4rem 2rem",
-
-
-            }}
-              className="tile ">
-              <h3 style={{ fontWeight: 'normal' }} className="subtitle">{mainpitch.description}</h3>
-            </div>
-            <div
-              style={{
-
-                padding: '2%'
-              }}
-              className="tile"
-            >
-              <img src={Section1} alt="" />
+        <div >
+          <div className="why-container">
+            <h1 style={{ textAlign: 'center', marginBottom: '40px' }}>{mainpitch.title}</h1>
+            <div className="why-section">
+              <div className="why-grid">
+                <div className="why-grid__1">
+                  <img style={{ width: '300px', marginBottom: '40px' }} src={Section1} />
+                  {mainpitch.description}</div>
+                <div className="why-grid__2">
+                  <img style={{ width: '200px', marginBottom: '40px' }} src={Section2} />
+                  We
+                  build outstanding brands and profer custom-long lasting solutions to
+              brand-related problems</div>
+              </div>
             </div>
           </div>
-          <div
-            className="flexswap content"
-            style={{
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              background: '#fafafb',
-              boxShadow: '3px 3px 48px 4px #C9C9C9'
-            }}
-          >
-            <div
-              style={{
 
-                padding: '2%'
-              }}
-              className="tile "
-
-            >
-              <img src={Section2} alt="" />
-            </div>
-            <div
-              style={{
-                padding: "4rem 2rem",
-
-              }}
-              className="tile ">
-              <h3 style={{ fontWeight: 'normal' }} className="subtitle">We
-              build outstanding brands and profer custom-long lasting solutions to
-              brand-related problems</h3>
-            </div>
-          </div>
           <div className="section">
             <div className="columns">
               <div className="column is-12">
                 <h3 className="has-text-weight-semibold is-size-2"
-                  style={{ textAlign: 'center' }}>
+                  style={{ textAlign: 'center', marginTop: '50px' }}>
                   {heading}
                 </h3>
                 <p className="supportp" style={{ padding: '0 7%', textAlign: 'center', fontSize: '18px' }}>{description}</p>
