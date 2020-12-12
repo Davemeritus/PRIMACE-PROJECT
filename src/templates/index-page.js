@@ -69,10 +69,10 @@ export const IndexPageTemplate = ({
             <div className="why-section">
               <div className="why-grid">
                 <div className="why-grid__1">
-                  <img style={{ width: '300px', marginBottom: '40px' }} src={Section1} />
+                  <img style={{ width: '300px', marginBottom: '40px' }} alt="" src={Section1} />
                   {mainpitch.description}</div>
                 <div className="why-grid__2">
-                  <img style={{ width: '200px', marginBottom: '40px' }} src={Section2} />
+                  <img style={{ width: '200px', marginBottom: '40px' }} alt="" src={Section2} />
                   We
                   build outstanding brands and profer custom-long lasting solutions to
               brand-related problems</div>

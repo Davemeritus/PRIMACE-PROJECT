@@ -85,7 +85,7 @@ export const AboutPageTemplate = () => {
             <hr />
             <p >Powered by a winning team of creatives, fueled by their ever-present hunger to not just give our clients a cutting edge in the market, but also make them 'The Pacemaker' even amidst fierce competition.</p>
             <br />
-            <img src={team} />
+            <img src={team} alt="" />
             <p>Working, using our passion, creativity and expanding pool of ideas, we develop custom-built techniques to provide unique long-lasting solutions for all problems our clients may run into while starting-up, and trying to reach a larger audience.
 
             In doing so we help build a strong online presence for our clients.
