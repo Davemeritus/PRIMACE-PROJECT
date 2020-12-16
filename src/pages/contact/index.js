@@ -50,7 +50,7 @@ export default class Index extends React.Component {
               <div className='content'>
 
                 <form
-                  action='mailto:david@yahoo.com'
+                  action='mailto:primaceagency@gmail.com'
                   method='get'
                   encType='text/plain'
                 // name="contact"
