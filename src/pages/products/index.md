@@ -20,10 +20,10 @@ intro:
         the art and science of copy writing that sells your product or service
         and convince your prospective clients to take actions
     - image: /img/webdevelopment.png
-      text: Your website is often the first point of contact potential customers have
-        of your company and brand. It only makes sense that you contact us to
-        put your best foot forward and effectively communicate what you're all
-        about through professional and user-friendly web design
+      text: Your website is the first point of contact, potential customers have of
+        your business and brand. We position your brand and effectively
+        communicate what you are all about through professional,
+        marketing-inclined and user-friendly website.
     - image: /img/contentcreator.png
       text: Helping you with your overall game plan for reaching prospective consumers
         and turning them into customers of the products or services your
