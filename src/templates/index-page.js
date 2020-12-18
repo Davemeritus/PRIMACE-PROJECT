@@ -52,7 +52,7 @@ export const IndexPageTemplate = ({
 
 
             }}
-          ><Link to="/contact" style={{ outline: '0', color: 'white' }}>HIRE US NOW</Link></button>
+          ><Link to="/contact" style={{ outline: '0', color: 'white' }}> LET'S TALK</Link></button>
         </div>
         <div
 
@@ -107,8 +107,8 @@ export const IndexPageTemplate = ({
             </div>
             <div className="ColumnWords" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               <img src={Picture} alt="" style={{ width: '150px', marginBottom: '30px', borderRadius: '50%' }} />
-              <p style={{ padding: '0 2rem', fontSize: '1.5rem' }}><span style={{ width: '42px' }}>"</span>The idea is to create an identity that narrows down to four main attributes which are growth,
-                positivity, transformation and innovation" <br /><br /> <span style={{ marginTop: '10px', fontWeight: 'bolder' }}>- Caleb Oluwole</span> </p>
+              <p style={{ padding: '0 2rem', fontSize: '1.5rem' }}><span style={{ width: '42px' }}>"</span>The idea is to create an identity that narrows down to four main attributes which are <b>growth,</b>
+               <b>positivity,</b> <b>transformation and innovation"</b>  <br /><br /> <span style={{ marginTop: '10px', fontWeight: 'bolder' }}>- Caleb Oluwole</span> </p>
 
             </div>
             <div className="column is-12">
