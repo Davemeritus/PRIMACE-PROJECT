@@ -9,7 +9,7 @@ description: "Nowadays, there are two ways to set up your business.We have the
   platform and the online platform. These businesses take advantage of both
   platforms to have a wider range of customers. And you can join them in doing
   the same. "
-featuredpost: true
+featuredpost: false
 featuredimage: /img/pexels-pixabay-257897.jpg
 ---
 <!--\[if gte mso 9]><xml>
