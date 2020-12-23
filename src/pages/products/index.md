@@ -14,7 +14,7 @@ intro:
         We help you with your long-term and short-term plans for the development of a successful brand in order to achieve specific goals.
 
         We offer an excellent service in creating brand development strategies to maintain competitiveness, be it Product line extension, brand extension or creating a new brand
-      title: BRANDING & BRAND STRATEGY
+      title: JESUS
     - image: /img/copywriting.png
       text: Harness the power of the written word to beef up your business with higher
         conversions through our top-notch copywriting services. We are versed in
