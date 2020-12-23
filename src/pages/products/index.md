@@ -14,27 +14,32 @@ intro:
         We help you with your long-term and short-term plans for the development of a successful brand in order to achieve specific goals.
 
         We offer an excellent service in creating brand development strategies to maintain competitiveness, be it Product line extension, brand extension or creating a new brand
+      title: BRANDING & BRAND STRATEGY
     - image: /img/copywriting.png
       text: Harness the power of the written word to beef up your business with higher
         conversions through our top-notch copywriting services. We are versed in
         the art and science of copy writing that sells your product or service
         and convince your prospective clients to take actions
+      title: COPYWRITING
     - image: /img/webdevelopment.png
       text: Your website is the first point of contact, potential customers have of
         your business and brand. We position your brand and effectively
         communicate what you are all about through professional,
         marketing-inclined and user-friendly website.
+      title: WEB DESIGN & DEVELOPMENT
     - image: /img/contentcreator.png
       text: Helping you with your overall game plan for reaching prospective consumers
         and turning them into customers of the products or services your
         business provides is what we are here for. We create a holistic
         marketing strategy that satisfy your clients' needs, increase sales,
         maximize profit and beat your competitors
+      title: DIGITAL & INBOUND MARKETING
     - text: Consistent, high quality and engaging contents impact the audience
         decision-making more than any other technique. We help you generate
         ideas that appeal to your buyer persona, creating contents around those
         ideas through our excellent content creation services.
       image: /img/marketing.png
+      title: SEO CONTENT CREATION
     - text: >-2
          
 
@@ -43,6 +48,7 @@ intro:
          
          An online advertising agency specifically geared towards digital marketing, is your best bet; Primace is your surest bet; this is the best way to achieve your desired results. 
       image: /img/campaign.png
+      title: ADVERT CAMPAIGN
   heading: What we offer
   description: >-
     
