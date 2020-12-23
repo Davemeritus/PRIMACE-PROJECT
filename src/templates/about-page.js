@@ -2,8 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Vision from "../img/vision.png"
-import Mission from "../img/mission.png"
 import Results from "../img/exam.png"
 import Creativty from "../img/creative.png"
 import Goal from "../img/goal.png"
@@ -29,7 +27,7 @@ export const AboutPageTemplate = () => {
 
           <div className="aboutus">
             <div>
-             
+
               <h1 style={{ fontSize: '32px', fontWeight: '600' }}>Our Vision</h1><hr />
               <p>To be the facilitator of the brands and businesses that solves major human problems.</p>
             </div>
