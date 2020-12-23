@@ -31,11 +31,11 @@ export const AboutPageTemplate = () => {
             <div>
              
               <h1 style={{ fontSize: '32px', fontWeight: '600' }}>Our Vision</h1><hr />
-              <p>Our vision is to make Africa the centre of the world business activities by designing, developing and implementing digital marketing projects to help brands and businesses in Africa grow exponentially</p>
+              <p>To be the facilitator of the brands and businesses that solves major human problems.</p>
             </div>
             <div>
               <h1 style={{ fontSize: '32px', fontWeight: '600' }}>Our Mission</h1><hr />
-              <p>Our mission is to build outstanding branding and proffer solutions to all brand related problems while leading the way for a healthier society.</p>
+              <p>To build outstanding brands that stand the test if time, and unleash the innovative potentials of young people and mould even their craziest ideas into a profitable reality</p>
             </div>
           </div>
           <div className="value" style={{ padding: '0 5%' }}>
