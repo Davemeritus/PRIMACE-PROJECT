@@ -19,7 +19,7 @@ export const AboutPageTemplate = () => {
       <div className="hero" >
         <h1>About Us</h1>
         <p>
-          Primace Agency, a leading branding and marketing agency, <br />leveraging on both traditional and digital channels to go far above our client's targets.
+        Primace Agency is a Branding and Marketing Agency that profers strategy led solutions to brands that gives them a competitive advantage in the digital world.
       </p>
       </div>
       <div style={{ background: '#fff', borderRadius: '50px 50px 0 0' }}>
