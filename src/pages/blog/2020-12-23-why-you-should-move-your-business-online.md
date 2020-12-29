@@ -11,6 +11,9 @@ description: "Nowadays, there are two ways to set up your business.We have the
   the same. "
 featuredpost: false
 featuredimage: /img/pexels-pixabay-257897.jpg
+tags:
+  - business
+  - online
 ---
 ![Online](/img/pexels-pixabay-257897.jpg)
 
