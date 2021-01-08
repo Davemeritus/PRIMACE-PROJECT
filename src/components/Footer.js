@@ -84,7 +84,7 @@ const Footer = class extends React.Component {
 
             </div>
             <p style={{ padding: '1em 2em', borderTop: '1px solid white', color: 'white' }}>
-              @2020 Primace Agency
+              @2021 Primace Agency
            </p>
 
           </div>

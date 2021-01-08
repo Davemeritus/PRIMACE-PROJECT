@@ -73,7 +73,7 @@ const BlogPost = ({ data }) => {
             />
           </Helmet>
         }
-        tags={post.frontmatter.tags}
+       tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
     </Layout>
