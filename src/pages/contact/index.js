@@ -78,9 +78,10 @@ const Contact =  () => {
                   </div>
                 </div>
                 <div className='field'>
-                  <button className='button is-link' type='submit'>
-                    Send
-                  </button>
+                     <input className='button is-link' type="submit" value="Send" />
+//                   <button className='button is-link' type='submit'>
+//                     Send
+//                   </button>
                 </div>
               </form>
 
