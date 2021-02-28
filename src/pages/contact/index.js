@@ -51,8 +51,9 @@ export default class Index extends React.Component {
 
                 <form
                   action='mailto:primaceagency@gmail.com'
-                  method='get'
+                  method='post'
                   encType='text/plain'
+                  target="_blank"
                 // name="contact"
                 // method="post"
                 // action="/contact/thanks/"
