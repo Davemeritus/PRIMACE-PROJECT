@@ -16,15 +16,15 @@ const Contact =  () => {
           <div className='container'>
             <div className='content'>
     <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name"/><br>
-E-mail:<br>
-<input type="text" name="mail"/><br>
-Comment:<br>
-<input type="text" name="comment" size="50"/><br><br>
-<button type="submit">Submit </button>
-<input type="reset" value="Reset"/>
-</form>
+      Name:<br>
+      <input type="text" name="name"/><br />
+      E-mail:<br>
+      <input type="text" name="mail"/><br />
+      Comment:<br>
+      <input type="text" name="comment" size="50"/><br /><br />
+      <button type="submit">Submit </button>
+      <input type="reset" value="Reset"/>
+      </form>
 
             </div>
           </div>
